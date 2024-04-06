@@ -1,0 +1,38 @@
+$saiyanFont: Saiyan-Sans;
+$saiyanAura: rgb(241, 249, 7) 1px 0px 15px;
+$saiyanPrimaryColor: rgb(255, 89, 0);
+$borderRad: 15px;
+
+.container {
+  border-radius: $borderRad;
+  border: solid 2px;
+  background-image: url("https://wallpapercave.com/wp/wp8340305.png");
+  padding: 20px 100px 0 100px;
+  section {
+    border: solid rgb(241, 249, 7);
+    background-image: url("https://i.pinimg.com/originals/37/0e/e5/370ee5e97f7d05a4c6704967c1afd9e1.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: $borderRad;
+    figure {
+      img {
+        border-radius: $borderRad;
+        border: solid red 5px;
+      }
+    }
+  }
+
+  p {
+    width: 50vw;
+    color: black;
+    font-weight: 900;
+    font-size: 1.2em;
+    text-shadow: $saiyanAura;
+    font-family: $saiyanFont;
+  }
+  .saiyan {
+    text-shadow: $saiyanAura;
+    font-family: $saiyanFont;
+    color: $saiyanPrimaryColor;
+  }
+}
